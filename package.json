@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "author": "ulises.medrano@designamx.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "start": "npx ts-node-dev --debug --poll --respawn --project tsconfig.json server.ts"
+  },
+  "dependencies": {
+    "loglevel": "1.9.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "*"
+  }
+}
