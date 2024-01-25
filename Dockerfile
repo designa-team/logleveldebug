@@ -7,7 +7,4 @@ COPY . ./
 
 RUN yarn
 
-RUN yarn build
-
-
 CMD [ "/bin/ash", "-c", "yarn start" ]
